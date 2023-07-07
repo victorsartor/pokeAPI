@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pokédex</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>Pokédex</h1>
+  
+  <div class="pokemon-info">
+    <select id="pokemon-select-1"></select>
+    <select id="pokemon-select-2"></select>
+    <button onclick="battle()">Batalhar</button>
+    <button id="toggle-dark-mode-btn" onclick="toggleDarkMode()">Modo Noturno</button> <!-- Adicione o id ao botão -->
+    
+  </div>
+ 
+  <div id="pokemon-details-1"></div>
+  <div id="pokemon-details-2"></div>
+  <div id="battle-result"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
